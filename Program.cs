@@ -54,17 +54,11 @@ Console.WriteLine(sum); */
 3, 5 -> 243 (3⁵)
 2, 4 -> 16 */
 
-int A = 2;
+ /* int A = 2;
 int B = 4;
-int count = 0;
-while (count <= B)
+int C = 1;
+for (int i = 0; i < B; i++)
 {
-int C = A * A; 
-int A1=A;
-int D = A1 * C ;;
-
-  Console.WriteLine(D);
-    count++;
-    
+    C *= A;
 }
-
+Console.WriteLine(C); */
